@@ -1,6 +1,6 @@
 const args = process.argv;
 var exec = require('child_process').execSync;
-var cmd = "cd ui && "+ args[2]+" " + args[3] +" "+args[4] ;
+var cmd = "cd bootui && "+ args[2]+" " + args[3] +" "+args[4] ;
 
 var options = {
   encoding: 'utf8'

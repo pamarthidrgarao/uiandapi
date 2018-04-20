@@ -17,29 +17,31 @@ import { IconsComponent } from './icons/icons.component';
 import { MapsComponent } from './maps/maps.component';
 import { NotificationsComponent } from './notifications/notifications.component';
 import { UpgradeComponent } from './upgrade/upgrade.component';
+import { LoginComponent } from './login/login.component';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    DashboardComponent,
-    UserProfileComponent,
-    TableListComponent,
-    TypographyComponent,
-    IconsComponent,
-    MapsComponent,
-    NotificationsComponent,
-    UpgradeComponent,
+@NgModule( {
+    declarations: [
+        AppComponent,
+        DashboardComponent,
+        UserProfileComponent,
+        TableListComponent,
+        TypographyComponent,
+        IconsComponent,
+        MapsComponent,
+        NotificationsComponent,
+        UpgradeComponent,
+        LoginComponent,
 
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule,
-    ComponentsModule,
-RouterModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpModule,
+        ComponentsModule,
+        RouterModule,
+        AppRoutingModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
+} )
 export class AppModule { }
