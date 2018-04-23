@@ -39,5 +39,6 @@ electron-app-exe/distribution
 electron-app-exe/node_modules
 electron-app-exe/package-lock.json
 electron-app-exe/dist
-
+ui2/node_modules
+ui2/package-lock.json
 
