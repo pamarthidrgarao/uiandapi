@@ -72,7 +72,7 @@
 
 
 	<build>
-		<finalName>uiandapi</finalName>
+		<finalName>uiandapi1</finalName>
 		<resources>
 			<resource>
 				<directory>${basedir}/src/main/resources</directory>

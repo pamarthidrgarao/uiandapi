@@ -1,0 +1,1 @@
+web: java -jar target/uiandapi1.jar
